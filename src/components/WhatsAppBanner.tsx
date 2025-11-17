@@ -2,7 +2,7 @@ import { MessageCircle } from 'lucide-react';
 
 export default function WhatsAppBanner() {
   const handleWhatsAppClick = () => {
-    const phoneNumber = '919876543210';
+    const phoneNumber = '911234567890';
     const message = 'Hi! I am interested in your collection.';
     window.open(
       `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`,
